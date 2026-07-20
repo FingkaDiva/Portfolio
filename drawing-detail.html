@@ -3,26 +3,13 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Proyek - Fingka Amara Diva</title>
+	<title>Detail Gambar Kerja - Fingka Amara Diva</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Portfolio Karya dan Proyek Gambar Kerja / Pemodelan 3D oleh Fingka Amara Diva." />
-	<meta name="keywords" content="proyek, drafter, arsitektur, gambar kerja, 3d model, AutoCAD, SketchUp" />
+	<meta name="description" content="Portfolio Karya Gambar Kerja AutoCAD oleh Fingka Amara Diva." />
+	<meta name="keywords" content="gambar kerja, drafter, arsitektur, detail, AutoCAD" />
 	<meta name="author" content="Fingka Amara Diva" />
 
-  <!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<link rel="shortcut icon" href="favicon.ico">
-
 	<link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
 	
 	<!-- Animate.css -->
@@ -43,11 +30,6 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
 	</head>
 	<body>
 	<div id="colorlib-page">
@@ -57,8 +39,8 @@
 			<nav id="colorlib-main-menu" role="navigation">
 				<ul>
 					<li><a href="index.html">Home</a></li>
-					<li class="colorlib-active"><a href="work.html">Project</a></li>
-					<li><a href="drawings.html">Drawings</a></li>
+					<li><a href="work.html">Project</a></li>
+					<li class="colorlib-active"><a href="drawings.html">Drawings</a></li>
 					<li><a href="about.html">About</a></li>
 					<li><a href="services.html">Services</a></li>
 					<li><a href="contact.html">Contact</a></li>
@@ -72,41 +54,32 @@
 					<li><a href="mailto:fingka.diva@gmail.com" title="Email: fingka.diva@gmail.com"><i class="icon-mail"></i></a></li>
 				</ul>
 			</div>
-
 		</aside>
 
 		<div id="colorlib-main">
 			<div class="colorlib-work">
 				<div class="colorlib-narrow-content">
 					<div class="row">
-						<div class="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-							<span class="heading-meta">Karya Saya</span>
-							<h2 class="colorlib-heading">Portofolio Proyek</h2>
+						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft" style="margin-bottom: 20px;">
+							<a href="drawings.html" class="btn btn-primary btn-outline btn-sm"><i class="icon-arrow-left3"></i> Kembali ke Drawings</a>
 						</div>
 					</div>
-
-					<!-- Filter buttons -->
 					<div class="row">
 						<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-							<ul class="portfolio-filter">
-								<li><a href="#" class="filter-btn active" data-filter="all">Semua</a></li>
-								<li><a href="#" class="filter-btn" data-filter="residensial">Residensial</a></li>
-								<li><a href="#" class="filter-btn" data-filter="komersial">Komersial</a></li>
-								<li><a href="#" class="filter-btn" data-filter="pendidikan">Pendidikan</a></li>
-								<li><a href="#" class="filter-btn" data-filter="ibadah">Ibadah</a></li>
-							</ul>
+							<span class="heading-meta" id="drawing-category-meta">Gambar Kerja Detail</span>
+							<h2 class="colorlib-heading" id="drawing-category-heading">Pilih Kategori</h2>
 						</div>
 					</div>
 
-					<!-- Dynamic project grid - populated by portfolio.js -->
-					<div class="row row-bottom-padded-md" id="portfolio-grid">
+					<!-- Dynamic project details - populated by gambar-kerja-detail.js -->
+					<div class="row row-bottom-padded-md" id="drawing-detail-grid">
 						<!-- JS renders cards here -->
 					</div>
 
 				</div>
 			</div>
 		</div>
-
+	</div>
 
 	<!-- Full Image Zoom Overlay -->
 	<div class="image-zoom-overlay" id="image-zoom-overlay">
@@ -130,10 +103,9 @@
 	<script src="js/owl.carousel.min.js"></script>
 	<!-- Counters -->
 	<script src="js/jquery.countTo.js"></script>
-	<!-- Project Data -->
-	<script src="js/projects.js"></script>
-	<!-- Portfolio Gallery Engine -->
-	<script src="js/portfolio.js"></script>
+	
+	<!-- Detailed Project Engine -->
+	<script src="js/gambar-kerja-detail.js"></script>
 	<!-- MAIN JS -->
 	<script src="js/main.js"></script>
 

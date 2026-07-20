@@ -38,7 +38,7 @@
       ]
     },
     mep: {
-      title: "Gambar Kerja MEP",
+      title: "Gambar Kerja Mechanical Electrical Plumbing",
       category: "AutoCAD 2D / MEP & Utilitas",
       dir: "projek/Gambar Kerja/MEP",
       images: [
@@ -132,15 +132,6 @@
         '    <img loading="lazy" class="lazy-img" data-src="' + encoded + '" src="data:image/svg+xml,%3Csvg xmlns=\'http://www.w3.org/2000/svg\' width=\'100%25\' height=\'250\'/%3E"',
         '      alt="' + escapeHtml(catData.title) + ' - ' + escapeHtml(title) + '"',
         '      style="max-width:100%; max-height:100%; object-fit:contain; transition:opacity 0.3s, transform 0.4s; opacity:0; z-index:0; box-shadow: 0 2px 8px rgba(0,0,0,0.3); border: 1px solid #333;" />',
-        '    <div class="desc" style="z-index: 1; transition: opacity 0.3s;">',
-        '      <div class="con" style="height: 100%; display: flex; flex-direction: column; justify-content: center;">',
-        '        <h3 style="color:#ffffff; font-size:16px;">' + escapeHtml(title) + '</h3>',
-        '        <span style="color:#FFC300;">' + escapeHtml(catData.category) + '</span>',
-        '        <p class="icon" style="margin-top: 15px;">',
-        '          <span style="color:#FFC300; font-size: 13px;"><i class="icon-eye"></i> Klik untuk memperbesar</span>',
-        '        </p>',
-        '      </div>',
-        '    </div>',
         '  </div>',
         '</div>'
       ].join('\n');
